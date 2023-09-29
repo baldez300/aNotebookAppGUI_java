@@ -1,0 +1,17 @@
+
+
+.button {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-font-size: 25px;
+    -fx-background-color: #2980b9;
+}
+
+/* Define the style for the button when pressed */
+.button:pressed {
+    -fx-background-color: #00ff00; /* Background color when pressed */
+}
+
+/* Define the style for the button in update */
+.update-button {
+    -fx-background-color: #ff0; /* Background color when to update */
+}
