@@ -9,8 +9,8 @@
 
 <VBox fx:controller="controller.NoteController" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <TextField fx:id="titleField" />
-      <TextArea fx:id="contentArea" prefHeight="200.0" prefWidth="200.0" />
+      <TextField fx:id="titleField" promptText=" Add title here" />
+      <TextArea fx:id="contentArea" prefHeight="200.0" prefWidth="200.0" promptText=" Add text content here" />
       <Button fx:id="addButton" onAction="#handleAddButtonAction" mnemonicParsing="false" text="Add" />
       <ListView fx:id="noteListView" prefHeight="200.0" prefWidth="200.0" onMouseClicked="#handleNoteSelection" />
 
